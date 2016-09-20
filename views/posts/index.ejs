@@ -1,0 +1,8 @@
+<h1>Welcome to the homepage!</h1>
+<% for(var i = 0; i < posts.length; i++) { %>
+  <a href="/<%= posts[i].id %>">
+    <h2><%= posts[i].title %></h2>
+  </a>
+  <p><%= posts[i].body %></p>
+<% } %>
+
